@@ -1,0 +1,99 @@
+{
+  // IDE
+  "files.autoSave": "onFocusChange",                           //Set AutoSave
+  "workbench.settings.editor": "json",                         //Set Ctrl + , shortcut to settings.json not the ui settings
+  "terminal.integrated.defaultProfile.windows": "PowerShell",  //Set Pwsh default terminal
+  "workbench.startupEditor": "welcomePageInEmptyWorkbench",    //Set Startup page
+  "explorer.compactFolders": false,                            //Set Anidation of folders
+  "editor.bracketPairColorization.enabled": true,              //Set Bracket colorization
+  "breadcrumbs.filePath": "off",                               //Set Breadcrumbs
+  "emmet.includeLanguages": {                                  //Set JSX/TemplateString Autocomplete
+  "javascript":"javascriptreact"
+  },
+  "files.exclude": {                                           //Set Files to exclude from UI Explorer
+  "**/*.meta": true
+  },
+  "[markdown]": {                                              //?Set
+  "files.trimTrailingWhitespace": false
+  },
+  "editor.tabSize": 2,                                         //?Set Tab size
+  "files.trimTrailingWhitespace": true,                        //?Set
+  "editor.linkedEditing": true,                                //?Set
+
+  //THEME
+  "workbench.colorTheme": "Default Dark Modern",               //Set Theme
+  "workbench.iconTheme": "material-icon-theme",                //Set Icon Theme
+
+  //FONT
+  "editor.fontFamily": "'Cascadia Code', sans-serif",          //Set Font editor
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font", //Set Font terminal
+  "scm.inputFontFamily": "JetBrainsMono Nerd Font",
+  "chat.editor.fontFamily": "JetBrainsMono Nerd Font",
+  "debug.console.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.codeLensFontFamily": "JetBrainsMono Nerd Font",
+  "notebook.output.fontFamily": "JetBrainsMono Nerd Font",
+  "markdown.preview.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.inlayHints.fontFamily": "JetBrainsMono Nerd Font",
+
+  "editor.fontSize": 14,                                       //Set Font size
+  "editor.fontLigatures": true,                                //Set Ligatures
+  "terminal.integrated.fontSize": 11,                          //Set Font size terminal
+  // "editor.fontWeight": "bold",                                 //Set Font weight
+
+  // UI
+  "editor.wordWrap": "on",                                     //Set WarpLines
+  "editor.minimap.enabled": false,                             //Set Minmap
+  "editor.guides.bracketPairs": true,                          //Set Braket pairs guides
+  "editor.scrollbar.vertical": "auto",                         //Set Scroll bar vertical
+  "editor.scrollbar.horizontal": "auto",                       //Set Activity bar side
+  "workbench.sideBar.location": "right",                       //Set Sidebar right
+  "window.titleBarStyle": "custom",                            //Set Window title bar style
+  "window.zoomLevel": 0.75,                                    //Set Zoom editor default
+  "window.commandCenter": false,                               //Set Command Center
+  "window.menuBarVisibility": "toggle",                        //Set Menu bar visibility
+
+  //GIT
+  "git.openRepositoryInParentFolders": "always",               //Set Git autoConfig
+  "git.confirmSync": false,                                    //Set Git Confirm notification sync
+  "git.autofetch": true,                                       //Set Git autoFetch
+  "git.enableSmartCommit": true,                               //Set Git SmartCommit for auto stage files
+
+  //PEACOCK
+  "peacock.favoriteColors": [{
+    "name": "purple",
+    "value": "4d59d7"
+  }],
+
+  // APC
+  "apc.activityBar": {
+    "position": "bottom",
+    "size": 30
+  },
+  "apc.electron": {
+    "titleBarStyle": "hiddenInset",
+    "trafficLightPosition": {
+      "x": 12,
+      "y": 10
+    }
+  },
+  "apc.font.family": "JetBrainsMono Nerd Font",
+  "apc.monospace.font.family": "JetBrainsMono Nerd Font",
+  "apc.statusBar": {
+    "position": "editor-bottom",
+    "height": 30,
+    "fontSize": 12
+  },
+
+  // Custom css
+  "apc.stylesheet": {
+    ".sidebar > .composite": "height: 12px !important",                             //hide word explorer on tree explorer
+    ".title-label": "display: none !important",
+    ".title-actions": "display: none !important",
+    ".tabs-and-actions-container > .editor-actions": "display: none !important",
+    ".titlebar-center": "display: none !important",
+    ".inline-tabs-placeholder": "display: none !important",
+    // ".split-view-view .visible": "background-color: #110f17 !important"
+    // ".titlebar-right": "display: none !important",
+  },
+  "tabnine.experimentalAutoImports": true,
+}
