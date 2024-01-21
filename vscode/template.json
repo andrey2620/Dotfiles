@@ -1,0 +1,82 @@
+{
+ // IDE
+ "files.autoSave": "onFocusChange",                           //Set AutoSave
+ "workbench.settings.editor": "json",                         //Set Ctrl + , shortcut to settings.json not the ui settings
+ "terminal.integrated.defaultProfile.windows": "PowerShell",  //Set Pwsh default terminal
+ "workbench.startupEditor": "welcomePageInEmptyWorkbench",    //Set Startup page
+ "explorer.compactFolders": false,                            //Set Anidation of folders
+ "editor.bracketPairColorization.enabled": true,              //Set Bracket colorization
+ "breadcrumbs.filePath": "off",                               //Set Breadcrumbs
+ "emmet.includeLanguages": {                                  //Set JSX/TemplateString Autocomplete
+ "javascript":"javascriptreact"
+ },
+ "files.exclude": {                                           //Set Files to exclude from UI Explorer
+ "**/*.csproj": true,                                         //From .net
+ "**/*.sln": true,                                            //From .net
+ "**/*.config": true,                                         //From .net
+ "**/*obj": true,                                             //From .net
+ "**/*Properties": true,                                      //From .net
+ "**/*bin": true,                                             //From .net
+ "**/*appsettings.Development.json": true,                    //From .net
+ "**/*appsettings.json": true,                                //From .net
+ "**/*.meta": true,                                           //From unity
+ // "**/*bin": true,
+ },
+ "[markdown]": {                                              //?Set
+ "files.trimTrailingWhitespace": false
+ },
+ "editor.tabSize": 1,                                         //?Set Tab size
+ "files.trimTrailingWhitespace": true,                        //?Set
+ "editor.linkedEditing": true,                                //?Set
+
+ //THEME
+ "workbench.colorTheme": "Default Dark Modern",               //Set Theme
+ "workbench.iconTheme": "material-icon-theme",                //Set Icon Theme
+
+ //FONT
+ "editor.fontFamily": "'Cascadia Code', sans-serif",          //Set Font editor
+ "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font", //Set Font terminal
+ "scm.inputFontFamily": "JetBrainsMono Nerd Font",
+ "chat.editor.fontFamily": "JetBrainsMono Nerd Font",
+ "debug.console.fontFamily": "JetBrainsMono Nerd Font",
+ "editor.codeLensFontFamily": "JetBrainsMono Nerd Font",
+ "notebook.output.fontFamily": "JetBrainsMono Nerd Font",
+ "markdown.preview.fontFamily": "JetBrainsMono Nerd Font",
+ "editor.inlayHints.fontFamily": "JetBrainsMono Nerd Font",
+
+ "editor.fontSize": 14,                                       //Set Font size
+ "editor.fontLigatures": true,                                //Set Ligatures
+ "terminal.integrated.fontSize": 11,                          //Set Font size terminal
+ // "editor.fontWeight": "bold",                                 //Set Font weight
+
+ // UI
+ "window.zoomLevel": 0.7,
+ "editor.wordWrap": "on",                                     //Set WarpLines
+ "editor.minimap.enabled": false,                             //Set Minmap
+ "editor.guides.bracketPairs": true,                          //Set Braket pairs guides
+ "editor.scrollbar.vertical": "auto",                         //Set Scroll bar vertical
+ "editor.scrollbar.horizontal": "auto",                       //Set Activity bar side
+ "workbench.sideBar.location": "right",                       //Set Sidebar right
+ "window.commandCenter": false,                               //Set Command Center
+ "window.titleBarStyle": "custom",                            //Set Zoom editor default
+ "window.menuBarVisibility": "toggle",                        //Set Menu bar visibility
+
+ //GIT
+ "git.openRepositoryInParentFolders": "always",               //Set Git autoConfig
+ "git.confirmSync": false,                                    //Set Git Confirm notification sync
+ "git.autofetch": true,                                       //Set Git autoFetch
+ "git.enableSmartCommit": true,                               //Set Git SmartCommit for auto stage files
+
+ //PEACOCK
+ "peacock.favoriteColors": [{
+   "name": "purple",
+   "value": "4d59d7"
+ }],
+
+ // APC
+
+ // Custom css
+
+ "explorer.confirmDelete": false,
+ "tabnine.experimentalAutoImports": true,
+}
