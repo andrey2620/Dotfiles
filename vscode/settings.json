@@ -5,6 +5,7 @@
   "terminal.integrated.defaultProfile.windows": "PowerShell",  //Set Pwsh default terminal
   "workbench.startupEditor": "welcomePageInEmptyWorkbench",    //Set Startup page
   "explorer.compactFolders": false,                            //Set Anidation of folders
+  "explorer.confirmDelete": false,                             //Set confirmation off
   "editor.bracketPairColorization.enabled": true,              //Set Bracket colorization
   "breadcrumbs.filePath": "off",                               //Set Breadcrumbs
   "emmet.includeLanguages": {                                  //Set JSX/TemplateString Autocomplete
@@ -22,7 +23,7 @@
 
   //THEME
   "workbench.colorTheme": "Default Dark Modern",               //Set Theme
-  "workbench.iconTheme": "material-icon-theme",                //Set Icon Theme
+  //"workbench.iconTheme": "material-icon-theme",                //Set Icon Theme
 
   //FONT
   "editor.fontFamily": "'Cascadia Code', sans-serif",          //Set Font editor
