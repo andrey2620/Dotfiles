@@ -7,7 +7,7 @@
   "explorer.compactFolders": false,                            //Set Anidation of folders
   "explorer.confirmDelete": false,                             //Set confirmation off
   "editor.bracketPairColorization.enabled": true,              //Set Bracket colorization
-  "breadcrumbs.filePath": "off",                               //Set Breadcrumbs
+  "breadcrumbs.enabled": false,                                //Set Breadcrumbs
   "emmet.includeLanguages": {                                  //Set JSX/TemplateString Autocomplete
   "javascript":"javascriptreact"
   },
@@ -36,22 +36,25 @@
   "markdown.preview.fontFamily": "JetBrainsMono Nerd Font",
   "editor.inlayHints.fontFamily": "JetBrainsMono Nerd Font",
 
-  "editor.fontSize": 14,                                       //Set Font size
+  "editor.fontSize": 15,                                       //Set Font size
+  "editor.lineHeight": 1.7,                                    //Set Font size
   "editor.fontLigatures": true,                                //Set Ligatures
   "terminal.integrated.fontSize": 11,                          //Set Font size terminal
   // "editor.fontWeight": "bold",                                 //Set Font weight
 
   // UI
+  "window.zoomLevel": 0.7,
   "editor.wordWrap": "on",                                     //Set WarpLines
   "editor.minimap.enabled": false,                             //Set Minmap
   "editor.guides.bracketPairs": true,                          //Set Braket pairs guides
   "editor.scrollbar.vertical": "auto",                         //Set Scroll bar vertical
   "editor.scrollbar.horizontal": "auto",                       //Set Activity bar side
-  "workbench.sideBar.location": "right",                       //Set Sidebar right
-  "window.titleBarStyle": "custom",                            //Set Window title bar style
-  "window.zoomLevel": 0.75,                                    //Set Zoom editor default
+  "editor.renderLineHighlight": "all",                         //set Render line highlight
   "window.commandCenter": false,                               //Set Command Center
+  "window.titleBarStyle": "custom",                            //Set Zoom editor default
   "window.menuBarVisibility": "toggle",                        //Set Menu bar visibility
+  "workbench.sideBar.location": "right",                       //Set Sidebar right
+  "workbench.editor.labelFormat": "short",                     //Set Editor label format
 
   //GIT
   "git.openRepositoryInParentFolders": "always",               //Set Git autoConfig
