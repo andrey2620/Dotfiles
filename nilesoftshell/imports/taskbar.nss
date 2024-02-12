@@ -1,4 +1,4 @@
-﻿menu(type="taskbar" vis=key.shift() or key.lbutton() sep=before pos=0 title=app.name image=\uE249)
+﻿menu(type="taskbar" vis=key.shift() or key.lbutton() pos=0 title=app.name image=\uE249)
 {
 	item(title="config" image=\uE10A cmd='"@app.cfg"')
 	item(title="manager" image=\uE0F3 admin cmd='"@app.exe"')
@@ -11,7 +11,9 @@ menu(where=@(this.count == 0) type='taskbar' image=icon.settings expanded=true)
 {
 	item(title=title.desktop image=icon.desktop cmd=command.toggle_desktop)
 	item(title=title.settings image=icon.settings(auto, image.color1) cmd='ms-settings:')
-	item(title=title.taskbar_Settings sep=before image=inherit cmd='ms-settings:taskbar')
-	item(title=title.task_manager sep=after image=icon.task_manager cmd='taskmgr.exe')
+	separator
+	item(title=title.taskbar_Settings image=inherit cmd='ms-settings:taskbar')
+	item(title=title.task_manager image=icon.task_manager cmd='taskmgr.exe')
+	separator
 	item(vis=key.shift() title=title.exit_explorer cmd=command.restart_explorer)
 }

@@ -21,10 +21,11 @@ menu(mode="multiple" title=title.more_options image=icon.more_options sep=after)
 {
 }
 
+import 'imports/vars.nss'
 import 'imports/apps.nss'
 import 'imports/favorites.nss'
-import 'imports/terminal.nss'
 import 'imports/develop.nss'
+import 'imports/directories.nss'
 import 'imports/config.nss'
 import 'imports/file-manage.nss'
 import 'imports/taskbar.nss'
